@@ -1,0 +1,9 @@
+D:\Hoctap\PhatTrienUngDungWeb\ThucHanh\PTUDW\63CNTT4N1\MyClass\bin\Debug\MyClass.dll.config
+D:\Hoctap\PhatTrienUngDungWeb\ThucHanh\PTUDW\63CNTT4N1\MyClass\bin\Debug\MyClass.dll
+D:\Hoctap\PhatTrienUngDungWeb\ThucHanh\PTUDW\63CNTT4N1\MyClass\bin\Debug\MyClass.pdb
+D:\Hoctap\PhatTrienUngDungWeb\ThucHanh\PTUDW\63CNTT4N1\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hoctap\PhatTrienUngDungWeb\ThucHanh\PTUDW\63CNTT4N1\MyClass\obj\Debug\MyClass.csproj.AssemblyReference.cache
+D:\Hoctap\PhatTrienUngDungWeb\ThucHanh\PTUDW\63CNTT4N1\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\Hoctap\PhatTrienUngDungWeb\ThucHanh\PTUDW\63CNTT4N1\MyClass\obj\Debug\MyClass.csproj.Up2Date
+D:\Hoctap\PhatTrienUngDungWeb\ThucHanh\PTUDW\63CNTT4N1\MyClass\obj\Debug\MyClass.dll
+D:\Hoctap\PhatTrienUngDungWeb\ThucHanh\PTUDW\63CNTT4N1\MyClass\obj\Debug\MyClass.pdb

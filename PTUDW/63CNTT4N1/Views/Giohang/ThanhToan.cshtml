@@ -1,0 +1,78 @@
+﻿﻿@model IEnumerable<_63CNTT4N1.Library.CartItem>
+
+@{
+    ViewBag.Title = "ThanhToan";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+<!-- ================ start banner area ================= -->
+<section class="blog-banner-area" id="category">
+    <div class="container h-100">
+        <div class="blog-banner">
+            <div class="text-center">
+                <h1>Hóa đơn</h1>
+                <nav aria-label="breadcrumb" class="banner-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Hóa đơn</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================ end banner area ================= -->
+<!--================Order Details Area =================-->
+<section class="order_details section-margin--small">
+    <div class="container">
+        <p class="text-center billing-alert">Thank you. Your order has been received.</p>
+        <div class="order_details_table">
+            <h2>Order Details</h2>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Sản phẩm</th>
+                            <th scope="col">Số lượng</th>
+                            <th scope="col">Đơn giá</th>
+                            <th scope="col">Thành tiền</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ decimal tongtien = 0;}
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <p>@item.Name</p>
+                                </td>
+                                <td>
+                                    <h5>x @item.Ammount</h5>
+                                </td>
+                                <td>
+                                    <h5>@string.Format("{0:C0}", @item.SalePrice)</h5>
+                                </td>
+                                <td>
+                                    <p>@string.Format("{0:C0}", @item.Total)</p>
+                                </td>
+                            </tr>
+                            tongtien += item.Total;
+                        }
+                    <tr>
+                        <td>
+                            <h4>Tổng tiền</h4>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                            <h5>@string.Format("{0:C0}", tongtien)</h5>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
